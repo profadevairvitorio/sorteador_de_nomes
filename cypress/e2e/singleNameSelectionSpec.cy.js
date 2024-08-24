@@ -8,6 +8,8 @@ describe('Single Name Selection', () => {
     cy.get('input#quantityInput').type('1');
     cy.get('button#drawButton').click();
     cy.get('#result').should('exist');
-    cy.get('#result').invoke('text').should('match', /Name drawn: (Alice|Bob|Charlie)/);
+    cy.get('#result').invoke('text')
+        .should('match', /Nomes sorteados: (Alice|Bob|Charlie)/);
+
   });
 });
