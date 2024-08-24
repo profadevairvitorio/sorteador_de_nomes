@@ -41,5 +41,12 @@ Input Names: Type the names separated by commas in the text area.
 Set Quantity: Enter the number of names you want to draw in the quantity input field.
 Draw Names: Click the "Draw" button to randomly select the specified number of names.
 
+# Cypress - Workflow
+This project is configured to run Cypress tests using GitHub Actions. With this setup, every push to the main branch or any pull request targeting main will trigger a workflow that runs our Cypress end-to-end tests.
+![image](https://github.com/user-attachments/assets/aacbdb6d-2f04-49ec-8734-4d8fde00e62c)
+
+[cypress.yml](https://github.com/profadevairvitorio/sorteador_de_nomes/blob/main/.github/workflows/cypress.yml)
+
+
 # License
 This project is licensed under the MIT License. See the [License](LICENSE) file for details.
