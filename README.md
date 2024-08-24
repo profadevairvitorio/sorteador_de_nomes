@@ -1,6 +1,8 @@
 # Sorteador de Nomes
 A simple web-based name picker application that allows users to input a list of names and randomly select one or multiple names. This project is built using HTML, CSS, and JavaScript, with end-to-end tests implemented using Cypress.
+![image](https://github.com/user-attachments/assets/eea446b9-1843-48b1-ad25-dcbf7b57b545)
 
+[https://profadevairvitorio.github.io/sorteador_de_nomes/](https://profadevairvitorio.github.io/sorteador_de_nomes/)
 # Features
 - Input Names: Users can input a list of names separated by commas.
 - Choose Quantity: Users can specify the number of names to be drawn.
